@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@telerik/kendo-theme-default/styles/packages/all";
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+
+// you can enter custom scss below
+h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 5em;
+  font-weight: 100;
+}
